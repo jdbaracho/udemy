@@ -28,6 +28,10 @@ class PlacesList extends ConsumerWidget {
                   .read(userPlacesProvider.notifier)
                   .removePlace(places[index].id),
               child: ListTile(
+                leading: CircleAvatar(
+                  radius: 26,
+                  backgroundImage: FileImage(places[index].image),
+                ),
                 onTap: () => Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) =>
