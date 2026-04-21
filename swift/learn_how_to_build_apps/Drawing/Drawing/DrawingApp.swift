@@ -1,0 +1,17 @@
+//
+//  DrawingApp.swift
+//  Drawing
+//
+//  Created by João Domingos Baracho on 21/04/2026.
+//
+
+import SwiftUI
+
+@main
+struct DrawingApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
